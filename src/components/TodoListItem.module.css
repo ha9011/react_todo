@@ -1,0 +1,44 @@
+.remove {
+  font-size: 30px;
+  color: brown;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.TodoItem {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: cadetblue;
+}
+
+.nocheck {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.doTodo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  text-decoration: line-through;
+}

@@ -1,0 +1,21 @@
+.insertDiv {
+  display: flex;
+  height: 40px;
+}
+
+.insertInput {
+  flex: 1;
+  background-color: black;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 0.5rem;
+}
+
+.insertBtn {
+  cursor: pointer;
+  transition: 0.1s background ease-in;
+}
+.insertBtn:hover {
+  background: #adb5bd;
+}
